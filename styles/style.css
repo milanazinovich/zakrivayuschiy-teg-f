@@ -445,7 +445,7 @@ p + p {
   }
 }
 
-@media (width > 376px) {
+@media (width > 375px) {
   .header,
   .main {
     width: var(--container-width);
