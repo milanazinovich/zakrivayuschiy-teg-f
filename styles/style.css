@@ -109,7 +109,6 @@
   position: relative;
   width: 100%;
   overflow: hidden;
-  width: var(--image-size);
   padding: 0;
   margin: 0;
 }
@@ -119,11 +118,11 @@
 }
 
 .post__image-one {
-  filter: grayscale(100%) brightness(120%);
+  filter: brightness(120%);
 }
 
 .post__image-two {
-  filter: saturate(250%) hue-rotate(45deg);
+  filter: saturate(250%);
 }
 
 .post__image-tree {
@@ -135,7 +134,7 @@
 }
 
 .post__image-five {
-  filter: sepia(30%);
+  filter: hue-rotate(45deg);
 }
 
 .post__image-six {
