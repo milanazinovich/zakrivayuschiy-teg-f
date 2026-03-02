@@ -115,7 +115,7 @@
 }
 
 .post__image-zero {
-  filter: sepia(80%) contrast(120%);
+  filter: sepia(80%);
 }
 
 .post__image-one {
@@ -127,19 +127,19 @@
 }
 
 .post__image-tree {
-  filter: invert(85%) contrast(150%);
+  filter: invert(85%);
 }
 
 .post__image-four {
-  filter: blur(1.5px) brightness(80%);
+  filter: blur(1.5px);
 }
 
 .post__image-five {
-  filter: drop-shadow(10px 10px 10px rgba(0, 0, 0, 0.5)) sepia(30%);
+  filter: sepia(30%);
 }
 
 .post__image-six {
-  filter: contrast(170%) brightness(90%) saturate(130%) hue-rotate(15deg);
+  filter: contrast(170%);
 }
 
 .post__image-seven {
@@ -181,6 +181,7 @@ p + p {
   cursor: pointer;
   font-family: var(--basic-font);
   font-size: 14px;
+  padding: 0 10px;
 }
 
 .button {
@@ -234,12 +235,6 @@ p + p {
   z-index: 2;
   fill: var(--contour-color);
   mix-blend-mode: difference;
-}
-
-.card__like-button {
-  min-width: 130px;
-  min-height: 38px;
-  padding: 0 10px;
 }
 
 .save__button {
