@@ -320,16 +320,6 @@ p + p {
   height: 38px;
 }
 
-.card__icon-button {
-  background: none;
-  border: none;
-  cursor: pointer;
-  padding: 0;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
 .like-icon {
   display: block;
   width: 39px;
